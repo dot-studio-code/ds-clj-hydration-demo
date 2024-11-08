@@ -1,0 +1,15 @@
+{:nrepl {:port 8777}
+
+ :deps true
+
+ :dev-http {8280 "public"}
+
+ :builds {:browser {:target     :browser
+                    :output-dir "public/assets/js"
+                    :asset-path "/js"
+
+                    :jvm-opts ["-Xmx6G"]
+                    :module-loader true
+
+                    :modules
+                    {:main {:init-fn sfdb.app/init}}}}}

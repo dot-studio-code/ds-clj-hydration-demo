@@ -12,4 +12,4 @@
                     :module-loader true
 
                     :modules
-                    {:main {:init-fn sfdb.app/init}}}}}
+                    {:main {:init-fn hydrationtest.app/init}}}}}

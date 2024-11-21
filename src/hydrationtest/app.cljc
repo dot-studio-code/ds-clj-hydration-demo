@@ -1,4 +1,4 @@
-(ns sfdb.app
+(ns hydrationtest.app
   (:require [rum.core :as rum :refer [defc reactive react]]
             #?(:cljs [cljs.reader :as re :refer [read-string]])))
 

@@ -1,6 +1,6 @@
-(ns sfdb.build
+(ns hydrationtest.build
   (:require [rum.core :as rum]
-            [sfdb.app :as app]))
+            [hydrationtest.app :as app]))
 
 (println "hello")
 
